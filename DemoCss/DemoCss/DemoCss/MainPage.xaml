@@ -3,12 +3,35 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:DemoCss"
              x:Class="DemoCss.MainPage">
+    <ContentPage.Resources>
+        <StyleSheet Source="css/Style.css"/>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <Label Text="Xamarin Summit 2018" 
+                       StyleClass="textRed" />
 
-    <StackLayout>
-        <!-- Place new controls here -->
-    	<Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+                <Entry Text="Digite um texto aqui" />
+
+                <Button x:Name="Botao" 
+                        Text="Botão"/>
+            </StackLayout>
+            <FlexLayout>
+                <BoxView/>
+                <BoxView StyleClass="BoxRed" />
+                <BoxView/>
+                <BoxView StyleClass="BoxRed"/>
+                <BoxView/>
+                <BoxView StyleClass="BoxRed"/>
+                <BoxView/>
+                <BoxView StyleClass="BoxRed"/>
+                <BoxView/>
+                <BoxView StyleClass="BoxRed"/>
+                <BoxView/>
+                <BoxView StyleClass="BoxRed"/>
+            </FlexLayout>
+        </StackLayout>
+    </ContentPage.Content>
 
 </ContentPage>

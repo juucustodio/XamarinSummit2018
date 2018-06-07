@@ -1,0 +1,79 @@
+﻿StackLayout {
+    background-color: #808080;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+StackLayout>Label.textRed {
+    color: red;
+    margin: 30;
+    font-size: 50;
+    text-align: center;
+}
+
+
+
+
+
+
+
+StackLayout Entry{
+    background-color: greenyellow;
+    text-align: center;
+    color: blue; 
+}
+
+
+
+
+
+
+
+
+
+#Botao {
+    margin: 30;
+    height: 50;
+    background-color: deepskyblue;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+BoxView {
+    background-color: #ff6a00;
+    height: 100;
+}
+
+
+
+
+
+
+
+
+
+
+
+.BoxRed{
+    background-color: red;
+}
